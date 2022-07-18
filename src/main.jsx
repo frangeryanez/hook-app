@@ -8,12 +8,15 @@ import ReactDOM from 'react-dom/client';
 // import { MultipleCustomHooks } from './examples/MultipleCustomHooks';
 // import { FocusScreen } from './useRef/FocusScreen';
 // import { Layout } from './useLayoutEffect/Layout';
-import { Memorize } from './memos/Memorize';
+// import { Memorize } from './memos/Memorize';
+// import { MemoHook } from './memos/MemoHook';
+// import { CallbackHook } from './memos/CallbackHook';
+import { Father } from './task/Father';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Memorize />
+    <Father />
   </React.StrictMode>
 );
