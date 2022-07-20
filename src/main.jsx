@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom/client';
 // import { MemoHook } from './memos/MemoHook';
 // import { CallbackHook } from './memos/CallbackHook';
 // import { Father } from './task/Father';
-import { TodoApp } from './useReducer/TodoApp';
+import { TodoApp } from './useReducer';
 // import './useReducer/intro-reducer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
