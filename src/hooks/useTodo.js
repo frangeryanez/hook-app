@@ -2,7 +2,7 @@ import { useEffect, useReducer } from 'react';
 import { todoReducer } from '../useReducer/todoReducer';
 
 const init = () => {
-  return JSON.parse(localStorage.getItem('todos') || []);
+  return JSON.parse(localStorage.getItem('todos')) || [];
 };
 
 export const useTodo = () => {
@@ -35,7 +35,7 @@ export const useTodo = () => {
 
   const todosCount = todos.length;
 
-  const todosPending = todos.filter(todo => !todo.done).length;
+  const todosPending = todos.filter(todo => !todo?.done)?.length;
 
   return {
     todos,

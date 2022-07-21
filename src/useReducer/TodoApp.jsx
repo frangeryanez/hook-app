@@ -13,7 +13,7 @@ export const TodoApp = () => {
   return (
     <>
       <h1>
-        Todo App: { todosCount }, 
+        Todo App: { todosCount },&nbsp;
         <small>Slopes: { todosPending }</small>
       </h1>
       <hr />
