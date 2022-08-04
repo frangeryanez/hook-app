@@ -9,14 +9,16 @@ export const LoginPage = () => {
     <>
       <h1>Login Page</h1>
       <hr />
-      <pre>
+      <pre aria-label="pre">
         { JSON.stringify(user, null, 3) }
       </pre>
-      <Button variant="info" onClick={() => setUser({
-        id: 123,
-        name: 'Ana Frank',
-        email: 'anafrank@gmail.com'
-      })}>
+      <Button variant="info" onClick={
+        () => setUser({
+          id: 123,
+          name: 'Ana Frank',
+          email: 'anafrank@gmail.com'
+        })}
+      >
         Set User
       </Button>
     </>

@@ -6,7 +6,7 @@ import { useFetch } from '../../src/hooks/useFetch';
 jest.mock('../../src/hooks/useFetch');
 jest.mock('../../src/hooks/useCounter');
 
-describe('Test in MultipleCustomHooks', () => {
+describe('Test in <MultipleCustomHooks />', () => {
   const mockIncrement = jest.fn();
   useCounter.mockReturnValue({
     counter: 1, 
